@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        label{
+           font-weight: bold; 
+        }
+
+        .form-group{
+            margin-bottom: 10px;
+        }
+
+        .form-container{
+            background-color: lightcoral;
+            padding: 2em;
+            border: 2px solid darkgray;
+            border-radius: 5px;
+            box-shadow: 0 0 10px black;
+            width: 1160px;
+            margin: 50x auto;
+        }
+        
+        legend{
+            margin: 5px;
+
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+        }
+
+
+        input[type="submit"] {
+            background-color: #FFE4E1;
+            color: black;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin-right: 2%;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+    <fieldset>
+        <legend>
+            form daftar seminar TA
+        </legend>
+        <div class="form-container">
+
+        <form action="">
+            <div class="form-group">
+                <label for="nik">NIK</label>
+                <input type="text" id="nik">
+            </div>
+
+            <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama">
+            </div>
+
+            <div class="form-group">
+                <label for="prodi">Prodi</label>
+                <select id="prodi">
+                    <option value="pilih">pilih</option>
+                    <option value="sistem_informasi">Sistem Informasi</option>
+                    <option value="teknik_informatika">Teknik Informatika</option>
+                    <option value="bisnis_digital">Bisnis Digital</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="tanggal">Tanggal Seminar</label>
+                <input type="text" id="tanggal">
+            </div>
+
+            <div class="form-group">
+                <label for="jam">Jam Seminar</label>
+                <input type="text" id="jam">
+            </div>
+
+            <div class="form-group">
+                <label for="ruangan">Ruangan</label>
+                <input type="text" id="ruangan">
+            </div>
+            
+            <div class="form-group">
+                <label for="judul">Judul TA</label>
+                <textarea id="judul" name="judul" rows="5" cols="50"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="seminar">Seminar</label>
+                <select id="seminar">
+                    <option value="pilih">pilih</option>
+                    <option value="proposal_lomba">Proposal lomba</option>
+                    <option value="proposal_kegiatan">Proposal kegiatan</option>
+                    <option value="proposal_maulid">Proposal Maulid</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="pembimbing">Pembibing</label>
+                <select id="pembimbing">
+                    <option value="pilih">pilih</option>
+                    <option value="bu_anggita">Ibu Anggita</option>
+                    <option value="bu_sarah">Ibu Sarah</option>
+                    <option value="bu_fitri">Ibu Fitri</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="penguji">Penguji 1</label>
+                <select id="penguji">
+                    <option value="pilih">pilih</option>
+                    <option value="rizal">Ka Rizal</option>
+                    <option value="raka">Ka Raka</option>
+                    <option value="rizki">Ka Rizki</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="penguji">Penguji 2</label>
+                <select id="penguji">
+                    <option value="pilih">pilih</option>
+                    <option value="rizal">Ka Rizal</option>
+                    <option value="raka">Ka Raka</option>
+                    <option value="rizki">Ka Rizki</option>
+                </select>
+            </div>
+
+
+            <input type="submit" value="daftar">
+            
+        </form>
+        </div>
+    </fieldset>
+        </tbody>
+    </table>
+</body>
+</html>
